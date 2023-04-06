@@ -1,0 +1,16 @@
+.link {
+    cursor: url('../../vendor/cursor/Pointer.svg'), pointer;
+    opacity: 1;
+    transition: opacity 0.3s linear;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+
+.link_theme_black:hover {
+    cursor: url('../../vendor/cursor/Pointer.svg'), pointer;
+    /*background: rgba(42, 44, 47, 0.8);*/
+    background-color: #2A2C2FCC;
+}

@@ -1,0 +1,55 @@
+.content {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 92px;
+    padding: 56px 0 92px;
+}
+
+/*@media screen and (max-width: 1279px) {
+    .content {
+        width: calc(100% - 96px);
+    }
+}*/
+
+/*Ширина вся возможная*/
+
+/*
+1024
+padding: 48px 0 92px;
+gap: 92px;
+*/
+
+/*
+768
+padding: 48px 0 88px;
+gap: 88px; - на последней плейс - ковер = почему-то 90?
+*/
+
+/*
+320
+padding: 48px 0 64px;
+gap: 64px; - на последней плейс - ковер = почему-то 66?
+*/
+@media screen and (max-width: 1184px ) {
+    .content {
+        gap: 92px;
+        padding: 48px 0 92px;
+    }
+}
+
+@media screen and (max-width: 976px ) {
+    .content {
+        gap: 88px;
+        padding: 48px 0 88px;
+    }
+}
+
+@media screen and (max-width: 752px ) {
+    .content {
+        gap: 64px;
+        padding: 48px 0 64px;
+    }
+}
