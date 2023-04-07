@@ -5,7 +5,7 @@
 /*подключение стилей всей страницы и переиспользуемых блоков*/
 @import url('../blocks/link/link.css');
 @import url('../blocks/link/_type/link_type_text.css');
-@import url('../blocks/link/_type/link_type_text-underline.css');
+@import url('../blocks/link/_underline/link_underline.css');
 @import url('../blocks/link/_type/link_type_img.css');
 
 
@@ -42,9 +42,9 @@
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_baikal.css');
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_elbrus.css');
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kondratiev.css');
-@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kamchatka-1.css');
-@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kamchatka-2.css');
-@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_baikal-2.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kamchatka-mountains.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kamchatka-mountain.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_baikal-winter.css');
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_ergaki.css');
 
 
