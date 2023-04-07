@@ -5,11 +5,8 @@
 ___________________________
 ### Описание проекта
 
-Макет: [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
 Проект реализован с помощью навыков и знаний полученных
 после прохождения спринта по адаптивной вёрстке на курсе Яндекс Практикума.
-
 
 Для реализации проекта необходимо было:
 - [x] Подключиться к GIT для скачивания стартового набора
@@ -31,3 +28,7 @@ ___________________________
   * Относительных величин %, Vh, Vw, fr
   * Выражений с calc()
   * Медиа запросы @media
+
+### Ссылки
+* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Готовый проект на GitHub Pages](https://gudrum1983.github.io/russian-travel/index.html)
