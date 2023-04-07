@@ -3,12 +3,18 @@
 @import url('../vendor/fonts/fonts.css');
 
 /*подключение стилей всей страницы и переиспользуемых блоков*/
+@import url('../blocks/link/link.css');
+@import url('../blocks/link/_type/link_type_text.css');
+@import url('../blocks/link/_type/link_type_text-underline.css');
+@import url('../blocks/link/_type/link_type_img.css');
+
+
+
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-links/header__lang-links.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
-@import url('../blocks/header/__lang-link/__lang-link_active/header__lang-link_active.css'); /* ??? Как правильно назвать папку с одним модификатором ??? */
 
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
@@ -24,11 +30,29 @@
 @import url('../blocks/intro/__list/intro__list.css');
 @import url('../blocks/intro/__list-span/intro__list-span.css');
 
-@import url('../blocks/link/link.css');
 @import url('../blocks/content/content.css');
 
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_train.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_atharva.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_tuman.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_sochi.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_arisa.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_baikal.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_elbrus.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kondratiev.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kamchatka-1.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kamchatka-2.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_baikal-2.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_ergaki.css');
+
+
+
+
+
+
+
 
 @import url('../blocks/places/places.css');
 
@@ -40,15 +64,11 @@
 @import url('../blocks/place/__link/place__link.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
 
-
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__overlay/cover__overlay.css');
 @import url('../blocks/cover/cover.css');
-
-
-
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__links/footer__links.css');
