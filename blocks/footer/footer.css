@@ -3,20 +3,20 @@
     max-width: calc(100% - 98px);
     display: flex;
     justify-content: space-between;
-
     align-self: center;
 }
 
-@media screen and (max-width: 816px ) {
+/*@media screen and (max-width: 816px ) {
     .footer {
         width: 720px;
 
     }
-}
+}*/
 
 @media screen and (max-width: 767px) {
     .footer {
         width: calc(100% - 48px);
+        max-width: 720px;
         flex-direction: column;
         gap: 48px;
     }

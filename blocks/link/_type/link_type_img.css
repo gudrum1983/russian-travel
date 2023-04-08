@@ -1,11 +1,8 @@
 .link_type_img {
-    /*аналог rgba(42, 44, 47, 0.3) в HEX*/
-    background-color: #2A2C2F4D;
+    background-color: #2a2c2f4d;
     transition: background-color 2s;
 }
 
 .link_type_img:hover {
-    /*cursor: url('../../../vendor/cursor/Pointer.svg'), pointer;*/
-    /*аналог rgba(42, 44, 47, 0.8) в HEX*/
-    background-color: #2A2C2FCC;
+    background-color: #2a2c2fcc;
 }

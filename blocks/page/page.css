@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Inter', 'Arial', sans-serif;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 752px ) {

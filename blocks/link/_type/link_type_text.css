@@ -1,6 +1,5 @@
 .link_type_text {
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #ffffff;
     opacity: 1;
     transition: opacity 0.3s linear;
 }
