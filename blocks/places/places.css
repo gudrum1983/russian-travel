@@ -8,6 +8,8 @@
 @media screen and (max-width: 1000px ) {
     .places {
         gap: 73px;
+        /*в фигме есть 2px разницы в gap между  places и cover добавила их сюда*/
+        margin-bottom: 2px;
     }
 }
 

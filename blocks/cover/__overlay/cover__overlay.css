@@ -1,16 +1,18 @@
 .cover__overlay {
     text-decoration: none;
     width: 100%;
-    height: auto;
+    /*height: auto;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
     justify-content: center;
+    align-self: stretch;
+    /*justify-self: stretch;*/
 }
 
 @media screen and (max-width: 721px ) {
-    .cover__title {
+    .cover__overlay {
         gap: 16px;
     }
 }
