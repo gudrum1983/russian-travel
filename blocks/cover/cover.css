@@ -4,6 +4,7 @@
     min-height: 740px;
     background-image: url("../../vendor/images/cover-trains.jpg");
     background-size: cover;
+    background-position: center;
     display: flex;
 }
 
