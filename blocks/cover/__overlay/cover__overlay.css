@@ -9,6 +9,11 @@
     justify-content: center;
     align-self: stretch;
     /*justify-self: stretch;*/
+    background-color: #2a2c2f4d;
+    transition: background-color 2s;
+}
+.cover__overlay:hover {
+    background-color: #2a2c2fcc;
 }
 
 @media screen and (max-width: 721px ) {
@@ -16,3 +21,4 @@
         gap: 16px;
     }
 }
+

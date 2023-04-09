@@ -4,9 +4,9 @@
 
 /*подключение стилей всей страницы и переиспользуемых блоков*/
 @import url('../blocks/link/link.css');
-@import url('../blocks/link/_type/link_type_text.css');
+/*@import url('../blocks/link/_type/link_type_text.css');
 @import url('../blocks/link/_underline/link_underline.css');
-@import url('../blocks/link/_type/link_type_img.css');
+@import url('../blocks/link/_type/link_type_img.css');*/
 
 
 
@@ -15,11 +15,12 @@
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-links/header__lang-links.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
-
+@import url('../blocks/lead/__figure/lead__figure.css');
 @import url('../blocks/lead/__image/lead__image.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
 
@@ -34,7 +35,7 @@
 
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
-@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_train.css');
+/*@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_train.css');
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_atharva.css');
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_tuman.css');
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_sochi.css');
@@ -45,7 +46,7 @@
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kamchatka-mountains.css');
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_kamchatka-mountain.css');
 @import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_baikal-winter.css');
-@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_ergaki.css');
+@import url('../blocks/photo-grid/__item/_place/photo-grid__item_place_ergaki.css');*/
 
 
 

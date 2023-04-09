@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="index/index.css">
+    <link rel="stylesheet" href="pages/index.css">
     <meta
             name="description"
             content="Описание мест которые можно и стоит пометить в путешествии по всей России.">
@@ -17,10 +17,10 @@
 <body class="page">
 <header class="header">
     <img class="header__logo" src="images/header-logo.svg" alt="Логотип в виде контура страны">
-    <div class="header__lang-links">
-        <a href="#" class="header__lang-link link link_type_text link_underline">Ru</a>
-        <a href="#" class="header__lang-link link link_type_text">En</a>
-    </div>
+    <ul class="header__lang-links">
+        <li><a href="#" class="header__lang-link header__lang-link_active link">Ru</a></li>
+        <li><a href="#" class="header__lang-link link">En</a></li>
+    </ul>
 </header>
 
 <main class="content">
@@ -28,9 +28,15 @@
     <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
-        <img class="lead__image" src="images/lead-polka.jpg"
+        <figure class="lead__figure" >
+            <img class="lead__image" src="images/lead-polka.jpg"
+                 alt="Фото девушки спящей на нижней боковой полке плацкарта с схематичным изображением пути от Пскова до Улан-Уде.">
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
+        <!--
+          <img class="lead__image" src="images/lead-polka.jpg"
              alt="Фото девушки спящей на нижней боковой полке плацкарта с схематичным изображением пути от Пскова до Улан-Уде.">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <p class="lead__caption">ваша полка — верхняя</p>-->
     </section>
 
     <article class="intro">
@@ -55,18 +61,18 @@
 
     <section class="photo-grid">
 
-        <div class="photo-grid__item photo-grid__item_place_train"></div>
-        <div class="photo-grid__item photo-grid__item_place_atharva"></div>
-        <div class="photo-grid__item photo-grid__item_place_tuman"></div>
-        <div class="photo-grid__item photo-grid__item_place_sochi"></div>
-        <div class="photo-grid__item photo-grid__item_place_arisa"></div>
-        <div class="photo-grid__item photo-grid__item_place_baikal"></div>
-        <div class="photo-grid__item photo-grid__item_place_elbrus"></div>
-        <div class="photo-grid__item photo-grid__item_place_kondratiev"></div>
-        <div class="photo-grid__item photo-grid__item_place_kamchatka-1"></div>
-        <div class="photo-grid__item photo-grid__item_place_kamchatka-2"></div>
-        <div class="photo-grid__item photo-grid__item_place_baikal-winter"></div>
-        <div class="photo-grid__item photo-grid__item_place_ergaki"></div>
+        <img class="photo-grid__item" alt="Вид из окна поезда на береговую линию с берёзками." src="./images/photo-grid-train.jpg">
+        <img class="photo-grid__item" alt="Заснеженный горный хребет в облаках. Вид сверху." src="./images/photo-grid-atharva-tulsi.jpg">
+        <img class="photo-grid__item" alt="Поле со стогами сена в утреннем тумане. Рассвет. На стог сена взобралась пастушья овчарка. " src="./images/photo-grid-tuman.jpg">
+        <img class="photo-grid__item" alt="Лес на склоне в дымке облаков" src="./images/photo-grid-sochi.jpg">
+        <img class="photo-grid__item" alt="Фрагмент машины, колесо стоящее на ледяной глади." src="./images/photo-grid-arisa.jpg">
+        <img class="photo-grid__item" alt="Побережье байкала на фоне гор." src="./images/photo-grid-baikal.jpg">
+        <img class="photo-grid__item" alt="Заснеженные горы Эльбруса" src="./images/photo-grid-elbrus.jpg">
+        <img class="photo-grid__item" alt="Дорожный знак Пешеходного перехода на фоне множества бетонных ограждений." src="./images/photo-grid-kondratiev.jpg">
+        <img class="photo-grid__item" alt="Сопки Камчатки в дымке облаков. Вид сверху." src="./images/photo-grid-kamchatka-1.jpg">
+        <img class="photo-grid__item" alt="Гора Камчатки от подножия до вершины освещаемая закатным солнцем." src="./images/photo-grid-kamchatka-2.jpg">
+        <img class="photo-grid__item" alt="Заснеженное побережье Байкала." src="./images/photo-grid-baikal-2.jpg">
+        <img class="photo-grid__item" alt="Скальные гряды Ергаки заволоченные облаками. Вид сверху." src="./images/photo-grid-ergaki.jpg">
 
     </section>
 
@@ -76,7 +82,7 @@
             <h3 class="place__title">Куршская коса</h3>
             <address class="place__website">
                 <span class="place__url-heading">url</span>
-                <a href="http://park-kosa.ru" class="place__link link link_type_text link_underline">park-kosa.ru</a>
+                <a href="http://park-kosa.ru" class="place__link link">park-kosa.ru</a>
             </address>
             <img class="place__img" src="images/place-kosa.jpg"
                  alt="Камни и древесные коряги выступающие над водной поверхностью Куршского залива.">
@@ -97,7 +103,7 @@
             <address class="place__website">
                 <span class="place__url-heading">url</span>
                 <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                   class="place__link link link_type_text link_underline"
+                   class="place__link link"
                    target="_blank">National Geographic</a>
             </address>
             <img class="place__img" src="images/place-kolsky.jpg"
@@ -119,7 +125,7 @@
             <address class="place__website">
                 <span class="place__url-heading">url</span>
                 <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
-                   class="place__link link link_type_text link_underline"
+                   class="place__link link"
                    target="_blank">YouTube</a>
             </address>
             <img class="place__img" src="images/place-altai.jpg"
@@ -140,7 +146,7 @@
             <h3 class="place__title">Зимний Байкал</h3>
             <address class="place__website">
                 <span class="place__url-heading">url</span>
-                <a href="https://vk.com/baikalmile" class="place__link link link_type_text link_underline"
+                <a href="https://vk.com/baikalmile" class="place__link link"
                    target="_blank">https://vk.com/baikalmile</a>
             </address>
             <img class="place__img" src="images/place-winter-baikal.jpg"
@@ -159,7 +165,7 @@
             <h3 class="place__title">Карелия</h3>
             <address class="place__website">
                 <span class="place__url-heading">url</span>
-                <a href="http://vodlozero.ru" class="place__link link link_type_text link_underline"
+                <a href="http://vodlozero.ru" class="place__link link"
                    target="_blank">http://vodlozero.ru/</a>
             </address>
             <img class="place__img" src="images/place-karelia.jpg"
@@ -178,7 +184,7 @@
     </section>
 
     <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay link link_type_img"
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay"
            target="_blank">
             <h3 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h3>
             <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash;&nbsp;путешествие от&nbsp;столицы
@@ -190,14 +196,14 @@
 <footer class="footer">
     <nav>
         <ul class="footer__links">
-            <li><a href="https://yandex.ru/maps" class="footer__link link link_type_text" target="_blank">Карты</a></li>
-            <li><a href="https://yandex.ru/pogoda" class="footer__link link link_type_text" target="_blank">Погода</a>
+            <li><a href="https://yandex.ru/maps" class="footer__link link" target="_blank">Карты</a></li>
+            <li><a href="https://yandex.ru/pogoda" class="footer__link link" target="_blank">Погода</a>
             </li>
-            <li><a href="https://rasp.yandex.ru" class="footer__link link link_type_text" target="_blank">Расписание</a>
+            <li><a href="https://rasp.yandex.ru" class="footer__link link" target="_blank">Расписание</a>
             </li>
-            <li><a href="https://calendar.yandex.ru" class="footer__link link link_type_text"
+            <li><a href="https://calendar.yandex.ru" class="footer__link link"
                    target="_blank">Календарь</a></li>
-            <li><a href="https://travel.yandex.ru" class="footer__link link link_type_text"
+            <li><a href="https://travel.yandex.ru" class="footer__link link"
                    target="_blank">Путешествия</a></li>
         </ul>
     </nav>
