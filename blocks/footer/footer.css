@@ -9,13 +9,11 @@
 @media screen and (max-width: 1023px ) {
     .footer {
         max-width: calc(100% - 48px);
-
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer {
-        /*width: calc(100% - 48px);*/
         max-width: max-content;
         flex-direction: column;
         gap: 48px;

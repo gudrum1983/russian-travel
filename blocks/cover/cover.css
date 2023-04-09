@@ -6,8 +6,6 @@
     background-size: cover;
     background-position: center;
     display: flex;
-
-
 }
 
 @media screen and (max-width: 1279px ) {
@@ -15,7 +13,3 @@
         min-height: calc(100vw / 1.6);
     }
 }
-
-
-
-

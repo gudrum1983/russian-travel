@@ -4,6 +4,8 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
+    /*Ограничение ширины для переноса слов в Куршской косе на 768px*/
+    max-width: 97%;
 }
 
 @media screen and (max-width: 1000px ) {

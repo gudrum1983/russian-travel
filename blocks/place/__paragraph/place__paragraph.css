@@ -4,7 +4,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 1023px ) {
@@ -14,12 +14,9 @@
     }
 }
 
-
-
 @media screen and (max-width: 760px ) {
     .place__paragraph {
         padding: 0 16px;
         font-weight: 400;
-
     }
 }

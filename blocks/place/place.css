@@ -2,7 +2,6 @@
     width: 100%;
     max-width: calc(100% - 296px);
     display: grid;
-    /*grid-auto-flow: column;*/
     grid-row-gap: 48px;
     grid-column-gap: 40px;
     grid-template-rows: repeat(2, auto);
@@ -23,7 +22,7 @@
         max-width: calc(100% - 48px);
         grid-column-gap: 28px;
         grid-template-columns: 340px 1fr;
-            }
+    }
 }
 
 @media screen and (max-width: 760px ) {
