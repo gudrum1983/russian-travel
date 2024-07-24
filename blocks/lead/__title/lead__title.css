@@ -11,8 +11,21 @@
 @media screen and (max-width: 721px ) {
     .lead__title {
         margin: 0 0 16px;
-        font-size: 40px;
-        line-height: 44px;
-        max-width: 288px;
+        font-size: 12.5vw;
+        max-font-size: 96px;
+        min-font-size: 40px;
+        line-height: 13vw;
+        max-width: 720px;
+        min-width: 288px;
     }
+}
+
+@media screen and (max-width: 321px ) {
+  .lead__title {
+    margin: 0 0 16px;
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 720px;
+    min-width: 288px;
+  }
 }
